@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Twitch Ad Block — Quality Guard
+// @name         Twitch Guard- Quality AD Block
 // @namespace    local.twitch-quality-guard
 // @version      1.1.6
 // @description  Conservative HLS ad suppression with strict rendition checks and honest status.
