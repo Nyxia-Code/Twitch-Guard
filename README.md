@@ -1,4 +1,4 @@
-# Twitch Ad Block — Quality Guard
+# Twitch Guard
 
 **Version 1.1.6 Beta** · A lightweight, standalone Twitch userscript focused on reducing preroll and midroll ads while protecting stream quality and playback stability.
 
@@ -18,8 +18,8 @@ No account setup, external service, or additional application is required beyond
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) for your browser.
 2. **Chrome 138+ / supported Chromium browsers:** Open your browser's Extensions page, select **Tampermonkey → Details**, and turn on **Allow User Scripts**. On older Chrome versions, enable **Developer mode** on the Extensions page instead. See [Tampermonkey's official instructions](https://www.tampermonkey.net/faq.php#Q209).
-3. **[Install Quality Guard v1.1.6](https://raw.githubusercontent.com/Nyxia-Code/Twitch-Quality-Guard/main/twitch-ad-block.user.js)** using Tampermonkey, then approve the installation. Alternatively, open the [userscript source](./twitch-ad-block.user.js) and import it into Tampermonkey.
-4. Ensure **only one copy** of Quality Guard is enabled. Disable other Twitch playback/ad-interception userscripts while testing to avoid conflicts.
+3. **[Install Twitch Guard v1.1.6](https://raw.githubusercontent.com/Nyxia-Code/Twitch-Quality-Guard/main/twitch-ad-block.user.js)** using Tampermonkey, then approve the installation. Alternatively, open the [userscript source](./twitch-ad-block.user.js) and import it into Tampermonkey.
+4. Ensure **only one copy** of Twitch Guard is enabled. Disable other Twitch playback/ad-interception userscripts while testing to avoid conflicts.
 5. Refresh your Twitch tab. Select a fixed quality in Twitch's video settings if you want to avoid Twitch's own **Auto** quality changes.
 
 **Updates:** The GitHub-configured userscript includes Tampermonkey update URLs. Updates can be detected when a newer `@version` is published to this repository; your manager's update settings control when checks run.
@@ -34,7 +34,7 @@ No account setup, external service, or additional application is required beyond
 
 ## Troubleshooting and limitations
 
-If a stream buffers, try another quality temporarily, then compare playback with Quality Guard disabled. You can inspect diagnostics with **F12 → Console**:
+If a stream buffers, try another quality temporarily, then compare playback with Twitch Guard disabled. You can inspect diagnostics with **F12 → Console**:
 
 ```js
 window.__twitchQualityGuard?.diagnostics()
